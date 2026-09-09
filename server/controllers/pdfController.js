@@ -9,7 +9,9 @@ const execFileAsync =
 
 // LibreOffice path
 const libreOfficePath =
-  'C:\\Program Files\\LibreOffice\\program\\soffice.exe'
+  process.platform === 'win32'
+    ? 'C:\\Program Files\\LibreOffice\\program\\soffice.exe'
+    : 'soffice'
 
 
 // =====================================================
