@@ -134,7 +134,7 @@ function SellItem() {
 
       const response =
         await fetch(
-          'http://localhost:5000/api/items',
+          'https://studenttool.onrender.com/api/items',
           {
             method: 'POST',
             body: formData

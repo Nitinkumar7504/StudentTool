@@ -23,7 +23,7 @@ function Questions() {
 
         const response =
           await fetch(
-            'http://localhost:5000/api/questions'
+            'https://studenttool.onrender.com/api/questions'
           )
 
         const data =
@@ -71,7 +71,7 @@ function Questions() {
 
       const response =
         await fetch(
-          `http://localhost:5000/api/answers/${questionId}`
+          `https://studenttool.onrender.com/api/answers/${questionId}`
         )
 
       const data =
@@ -180,7 +180,7 @@ function Questions() {
 
       const response =
         await fetch(
-          'http://localhost:5000/api/answers',
+          'https://studenttool.onrender.com/api/answers',
           {
             method: 'POST',
 
@@ -388,7 +388,7 @@ function Questions() {
 
                     <img
                       src={
-                        `http://localhost:5000/${question.image.replace(/\\/g, '/')}`
+                        `https://studenttool.onrender.com/${question.image.replace(/\\/g, '/')}`
                       }
                       alt="Question"
                       className="question-image"

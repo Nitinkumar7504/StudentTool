@@ -82,7 +82,7 @@ function WordToPDF() {
 
       const response =
         await fetch(
-          'http://localhost:5000/api/pdf/word-to-pdf',
+          'https://studenttool.onrender.com/api/pdf/word-to-pdf',
           {
             method: 'POST',
             body: formData

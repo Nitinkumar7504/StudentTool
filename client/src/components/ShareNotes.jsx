@@ -83,7 +83,7 @@ function ShareNotes() {
 
       const response =
         await fetch(
-          'http://localhost:5000/api/notes',
+          'https://studenttool.onrender.com/api/notes',
           {
             method: 'POST',
             body: formData

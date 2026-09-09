@@ -38,7 +38,7 @@ function MyListings() {
 
         const response =
           await fetch(
-            `http://localhost:5000/api/items/my?email=${encodeURIComponent(sellerEmail)}`
+            `https://studenttool.onrender.com/api/items/my?email=${encodeURIComponent(sellerEmail)}`
           )
 
 
@@ -130,7 +130,7 @@ function MyListings() {
 
       const response =
         await fetch(
-          `http://localhost:5000/api/items/${itemId}`,
+          `https://studenttool.onrender.com/api/items/${itemId}`,
           {
             method:
               'DELETE',
@@ -211,7 +211,7 @@ function MyListings() {
 
 
     return (
-      `http://localhost:5000/${imagePath.replace(/\\/g, '/')}`
+      `https://studenttool.onrender.com/${imagePath.replace(/\\/g, '/')}`
     )
 
   }

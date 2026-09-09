@@ -23,7 +23,7 @@ function SearchNotes() {
 
     try {
       const response = await fetch(
-        `http://localhost:5000/api/notes?search=${encodeURIComponent(
+        `https://studenttool.onrender.com/api/notes?search=${encodeURIComponent(
           search.trim()
         )}`
       )
@@ -146,7 +146,7 @@ function SearchNotes() {
                       href={
                         note.fileUrl.startsWith('http')
                           ? note.fileUrl
-                          : `http://localhost:5000${note.fileUrl}`
+                          : `https://studenttool.onrender.com${note.fileUrl}`
                       }
                       target="_blank"
                       rel="noopener noreferrer"

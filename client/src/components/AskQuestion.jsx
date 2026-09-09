@@ -78,7 +78,7 @@ function AskQuestion() {
       // Send question to backend
       const response =
         await fetch(
-          'http://localhost:5000/api/questions',
+          'https://studenttool.onrender.com/api/questions',
           {
             method: 'POST',
 

@@ -238,7 +238,7 @@ function MergePDF() {
 
       const response =
         await fetch(
-          'http://localhost:5000/api/merge-pdf',
+          'https://studenttool.onrender.com/api/merge-pdf',
           {
             method: 'POST',
             body: formData

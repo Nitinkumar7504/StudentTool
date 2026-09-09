@@ -29,7 +29,7 @@ function BrowseItems() {
 
         const response =
           await fetch(
-            'http://localhost:5000/api/items'
+            'https://studenttool.onrender.com/api/items'
           )
 
         const data =
@@ -133,7 +133,7 @@ function BrowseItems() {
 
       const response =
         await fetch(
-          `http://localhost:5000/api/items/${selectedItem._id}/buy`,
+          `https://studenttool.onrender.com/api/items/${selectedItem._id}/buy`,
           {
             method: 'POST',
 
@@ -218,7 +218,7 @@ function BrowseItems() {
     }
 
     return (
-      `http://localhost:5000/${imagePath.replace(/\\/g, '/')}`
+      `https://studenttool.onrender.com/${imagePath.replace(/\\/g, '/')}`
     )
 
   }

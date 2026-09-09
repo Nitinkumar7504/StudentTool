@@ -33,7 +33,7 @@ function BuyRequests() {
 
         const response =
           await fetch(
-            `http://localhost:5000/api/buy-requests/my?sellerEmail=${encodeURIComponent(sellerEmail)}`
+            `https://studenttool.onrender.com/api/buy-requests/my?sellerEmail=${encodeURIComponent(sellerEmail)}`
           )
 
 

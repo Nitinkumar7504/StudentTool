@@ -25,7 +25,7 @@ function Notes() {
 
         const response =
           await fetch(
-            `http://localhost:5000/api/notes?page=${currentPage}&limit=10`
+            `https://studenttool.onrender.com/api/notes?page=${currentPage}&limit=10`
           )
 
 
@@ -87,7 +87,7 @@ function Notes() {
   function handleDownload(note) {
 
     const fileUrl =
-      `http://localhost:5000/${note.filePath.replace(/\\/g, '/')}`
+      `https://studenttool.onrender.com/${note.filePath.replace(/\\/g, '/')}`
 
 
     window.open(
@@ -136,7 +136,7 @@ function Notes() {
 
       const response =
         await fetch(
-          `http://localhost:5000/api/notes/${noteId}`,
+          `https://studenttool.onrender.com/api/notes/${noteId}`,
           {
             method: 'DELETE',
 

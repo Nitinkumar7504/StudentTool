@@ -39,7 +39,7 @@ function MyQuestions() {
 
         const response =
           await fetch(
-            `http://localhost:5000/api/questions/my?author=${encodeURIComponent(author)}`
+            `https://studenttool.onrender.com/api/questions/my?author=${encodeURIComponent(author)}`
           )
 
 
@@ -260,7 +260,7 @@ function MyQuestions() {
 
                     <img
                       src={
-                        `http://localhost:5000/${question.image.replace(/\\/g, '/')}`
+                        `https://studenttool.onrender.com/${question.image.replace(/\\/g, '/')}`
                       }
                       alt="Question"
                       className="my-question-image"

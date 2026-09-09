@@ -67,7 +67,7 @@ function PDFToWord() {
 
       const response =
         await fetch(
-          'http://localhost:5000/api/pdf/pdf-to-word',
+          'https://studenttool.onrender.com/api/pdf/pdf-to-word',
           {
             method: 'POST',
             body: formData
