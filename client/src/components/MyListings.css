@@ -1,0 +1,192 @@
+.my-listings-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.my-listings-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.my-listings-header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.my-listings-header p {
+  color: #666;
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+
+
+/* ==============================
+   SELL BUTTON
+============================== */
+
+.sell-item-button {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #222;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.sell-item-button:hover {
+  opacity: 0.85;
+}
+
+
+/* ==============================
+   GRID
+============================== */
+
+.my-listings-grid {
+  display: grid;
+  grid-template-columns:
+    repeat(3, 1fr);
+
+  gap: 25px;
+}
+
+
+/* ==============================
+   CARD
+============================== */
+
+.my-listing-card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  overflow: hidden;
+  background: white;
+}
+
+
+/* ==============================
+   IMAGE
+============================== */
+
+.my-listing-image {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+}
+
+.no-listing-image {
+  width: 100%;
+  height: 220px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #f5f5f5;
+  color: #777;
+}
+
+
+/* ==============================
+   CONTENT
+============================== */
+
+.my-listing-content {
+  padding: 20px;
+}
+
+.my-listing-content h2 {
+  font-size: 21px;
+  margin-bottom: 12px;
+}
+
+.my-listing-description {
+  color: #666;
+  line-height: 1.5;
+  min-height: 48px;
+}
+
+.my-listing-price {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 15px 0 20px;
+}
+
+
+/* ==============================
+   DELETE BUTTON
+============================== */
+
+.delete-listing-button {
+  width: 100%;
+  padding: 12px;
+
+  border: none;
+  border-radius: 8px;
+
+  background: #222;
+  color: white;
+
+  font-size: 15px;
+
+  cursor: pointer;
+}
+
+.delete-listing-button:hover {
+  opacity: 0.85;
+}
+
+
+/* ==============================
+   NO LISTINGS
+============================== */
+
+.no-my-listings {
+  text-align: center;
+
+  padding: 60px 20px;
+
+  border: 1px solid #ddd;
+  border-radius: 12px;
+}
+
+.no-my-listings h2 {
+  margin-bottom: 10px;
+}
+
+.no-my-listings p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+
+/* ==============================
+   RESPONSIVE
+============================== */
+
+@media (max-width: 900px) {
+
+  .my-listings-grid {
+    grid-template-columns:
+      repeat(2, 1fr);
+  }
+
+}
+
+
+@media (max-width: 600px) {
+
+  .my-listings-page {
+    padding: 25px 15px;
+  }
+
+  .my-listings-header h1 {
+    font-size: 28px;
+  }
+
+  .my-listings-grid {
+    grid-template-columns: 1fr;
+  }
+
+}

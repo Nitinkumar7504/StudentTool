@@ -1,0 +1,79 @@
+.attendance-page {
+  min-height: 100vh;
+  padding: 40px;
+  background: #f5f7fb;
+}
+
+.attendance-card {
+  width: 450px;
+  max-width: 100%;
+  margin: 50px auto;
+  padding: 30px;
+
+  background: white;
+  border-radius: 16px;
+
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.attendance-card h1 {
+  margin-bottom: 10px;
+}
+
+.attendance-card p {
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+
+.attendance-card label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 8px;
+}
+
+.attendance-card input {
+  width: 100%;
+  padding: 12px;
+
+  box-sizing: border-box;
+
+  border: 1px solid #ddd;
+  border-radius: 8px;
+
+  font-size: 16px;
+}
+
+.attendance-card button {
+  width: 100%;
+  margin-top: 25px;
+  padding: 12px;
+
+  border: none;
+  border-radius: 8px;
+
+  background: #222;
+  color: white;
+
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.attendance-card button:hover {
+  background: #333;
+}
+
+.attendance-result {
+  margin-top: 25px;
+  padding: 20px;
+
+  background: #f8f9fc;
+  border-radius: 12px;
+}
+
+.attendance-result h2 {
+  margin-bottom: 15px;
+}
+
+.attendance-result p {
+  margin-bottom: 10px;
+}

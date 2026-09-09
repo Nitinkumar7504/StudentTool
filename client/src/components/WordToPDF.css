@@ -1,0 +1,77 @@
+.word-to-pdf-page {
+  min-height: 100vh;
+  padding: 50px 20px;
+}
+
+.word-to-pdf-container {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.word-to-pdf-container h1 {
+  margin-bottom: 10px;
+}
+
+.word-to-pdf-container > p {
+  color: #666;
+  margin-bottom: 35px;
+}
+
+.word-upload-box {
+  padding: 40px;
+  border: 2px dashed #ccc;
+  border-radius: 15px;
+  background: #fff;
+}
+
+.word-file-label {
+  display: inline-block;
+  padding: 12px 22px;
+  background: #222;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.word-upload-box input {
+  display: none;
+}
+
+.selected-word-file {
+  margin-top: 25px;
+  padding: 15px;
+  background: #f5f5f5;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.selected-word-file span {
+  word-break: break-word;
+  color: #555;
+}
+
+.convert-word-button {
+  margin-top: 25px;
+  padding: 13px 25px;
+  border: none;
+  border-radius: 8px;
+  background: #1976d2;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.convert-word-button:disabled {
+  background: #aaa;
+  cursor: not-allowed;
+}
+
+.word-file-info {
+  margin-top: 25px;
+  color: #777;
+  font-size: 14px;
+  line-height: 1.6;
+}

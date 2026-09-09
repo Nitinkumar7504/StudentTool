@@ -1,0 +1,52 @@
+.home-page {
+  min-height: 100vh;
+  background: #f5f7fb;
+  padding: 40px;
+}
+
+.home-header {
+  max-width: 1100px;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+.home-header h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.home-header p {
+  font-size: 18px;
+}
+
+.tools-container {
+  max-width: 1100px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.tool-card {
+  background: white;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.tool-card h2 {
+  margin-bottom: 10px;
+}
+
+.tool-card p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.tool-card button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}

@@ -1,0 +1,54 @@
+.buy-requests-page {
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+.buy-requests-header {
+  max-width: 1100px;
+  margin: 0 auto 30px;
+}
+
+.buy-requests-header h1 {
+  margin-bottom: 10px;
+}
+
+.buy-requests-header p {
+  color: #666;
+}
+
+.no-buy-requests {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 40px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+}
+
+.buy-requests-list {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  gap: 20px;
+}
+
+.buy-request-card {
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background: white;
+}
+
+.buy-request-card h2 {
+  margin-top: 0;
+  margin-bottom: 18px;
+}
+
+.buy-request-card p {
+  margin: 10px 0;
+}
+
+.request-date {
+  color: #777;
+  font-size: 14px;
+}

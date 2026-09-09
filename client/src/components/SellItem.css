@@ -1,0 +1,97 @@
+.sell-item-page {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+
+.sell-item-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 30px;
+}
+
+
+.sell-item-card h1 {
+  margin-bottom: 10px;
+}
+
+
+.sell-item-card > p {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+
+.sell-item-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.sell-item-card label {
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+
+.sell-item-card input,
+.sell-item-card textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: inherit;
+}
+
+
+.sell-item-card textarea {
+  min-height: 130px;
+  resize: vertical;
+}
+
+
+.sell-item-card input[type="file"] {
+  padding: 8px;
+}
+
+
+.email-note {
+  font-size: 13px;
+  color: #777;
+  margin: 0;
+}
+
+
+.sell-item-card button {
+  margin-top: 20px;
+  padding: 13px;
+  border: none;
+  border-radius: 8px;
+  background: #222;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.sell-item-card button:hover {
+  opacity: 0.85;
+}
+
+
+@media (max-width: 600px) {
+
+  .sell-item-page {
+    padding: 25px 15px;
+  }
+
+
+  .sell-item-card {
+    padding: 20px;
+  }
+
+}

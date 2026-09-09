@@ -1,0 +1,118 @@
+.search-notes-page {
+  min-height: 100vh;
+  padding: 50px 20px;
+}
+
+.search-notes-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.search-notes-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.search-notes-header h1 {
+  margin-bottom: 10px;
+}
+
+.search-notes-header p {
+  color: #666;
+}
+
+.search-notes-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.search-notes-form input {
+  flex: 1;
+  padding: 13px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.search-notes-form button {
+  padding: 13px 25px;
+  border: none;
+  border-radius: 8px;
+  background: #1976d2;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.search-notes-message,
+.search-notes-error,
+.search-notes-empty {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.search-notes-error {
+  color: #c62828;
+}
+
+.search-notes-empty {
+  background: white;
+  border-radius: 12px;
+}
+
+.search-notes-empty p {
+  color: #777;
+}
+
+.search-notes-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.search-note-card {
+  padding: 20px;
+  background: white;
+  border: 1px solid #eee;
+  border-radius: 12px;
+}
+
+.search-note-card h2 {
+  margin-bottom: 15px;
+}
+
+.search-note-card p {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.search-download-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 16px;
+  background: #1976d2;
+  color: white;
+  text-decoration: none;
+  border-radius: 7px;
+}
+
+@media (max-width: 900px) {
+  .search-notes-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .search-notes-page {
+    padding: 30px 15px;
+  }
+
+  .search-notes-form {
+    flex-direction: column;
+  }
+
+  .search-notes-grid {
+    grid-template-columns: 1fr;
+  }
+}
